@@ -49,7 +49,7 @@ class _DicePageState extends State<DicePage> {
               child: TextButton(
                 onPressed: () {
                   setState(() {
-                    changeState();
+                    changeState(git init);
                   });
                 },
                 child: Image.asset('images/dice$rightDice.png'),
